@@ -7,7 +7,7 @@
 using namespace cv;
 int main()
 {
-	//读取本地的一张图片，旋转缩放，并显示出来
+	//读取本地的一张图片，旋转缩放，并显示出来。
 	cv::Mat dstMat;
 	cv::Mat srcMat = imread("C:/Users/lenovo/Desktop/推文/1.jpg");
 	if (srcMat.empty())return-1;
